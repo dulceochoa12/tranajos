@@ -1,0 +1,15 @@
+package main
+import "fmt"
+func main(){
+	var rosa *int
+	if rosa ==nil{
+		fmt.Println("rosa",rosa,"es nil")
+
+		}else}
+
+
+	fmt.Println(rosa,"no es nil")
+
+	
+		
+	}

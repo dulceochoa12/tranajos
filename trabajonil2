@@ -1,0 +1,14 @@
+package  main 
+import"fmt"
+func main(){
+	peso:=1
+	valentino:=peso
+	gato:&valentino
+	if *valentino==peso{
+		fmt.Println("la dreccion de memoria es peso")
+
+	}
+	if**gato==*valentino{
+		fmt.Println("La direccion de memoria es la misma a la anterior")
+	}	
+}
